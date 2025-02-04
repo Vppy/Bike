@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import NavbarPage from '@/components/navbar2';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 export default function HomePage() {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
